@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="mediaqueries.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav id="hamburger-nav">
+        <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#information" onclick="toggleMenu()">Information</a></li>
+            <li><a href="#profile" onclick="toggleMenu()">Profile</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+            <li><a href="#hobby" onclick="toggleMenu()">Hobby</a></li>
+        </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="left_side">
+            <div class="profile_text">
+                <div class="profile_pic">
+                <img src="./assets/profile.jpg" alt="naulia's profile">
+                </div>
+                <h2>Naulia Situmeang<br><span>Student</span></h2>
+            </div>
+                <section id="information">
+                <div class="contact_info">
+                <h3 class="title">Contact Info</h3>
+                    <ul>
+                        <li>
+                            <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                            <span class="text">+62 853 6159 0506</span>
+                        </li>
+                        <li>
+                            <span class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                            <span class="text">naulianaw25@gmail.com</span>
+                        </li>
+                        <li>
+                            <span class="icon"><i class="fa fa-linkedin-square" aria-hidden="true"></i></span>
+                            <span class="text">Naulia Situmeang</span>
+                        </li>
+                        <li>
+                            <span class="icon"><i class="fa fa-map-pin" aria-hidden="true"></i></span>
+                            <span class="text">Medan, Sumatra Utara</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="contact_info education">
+                <h3 class="title">Education</h3>
+                    <ul>
+                        <li>
+                            <h5>2018-2021</h5>
+                            <h4>SMP Al-Muslimin Pandan</h4>
+                        </li>
+                        <li>
+                            <h5>2021-2024</h5>
+                            <h4>SMAN 1 Sibolga</h4>
+                        </li>
+                        <li>
+                            <h5>2024-2027</h5>
+                            <h4>Bachelor of Information Technology, Universitas Sumatera Utara</h4>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="contact_info language">
+                    <h3 class="title">Languages</h3>
+                        <ul>
+                            <li>
+                                <span class="text">Indonesian</span> 
+                                <span class="percent">
+                                    <div style="width: 90%;"></div>
+                                </span> 
+                            </li>
+                            <li>
+                                <span class="text">English</span> 
+                                <span class="percent">
+                                    <div style="width: 70%;"></div>
+                                </span>
+                            </li>
+                        </ul>
+                </div>
+                </section>
+        </div>
+
+        <div class="right_side">
+            <section id="profile">
+            <div class="about">
+                <h2 class="title2">Profile</h2>
+                <p>I am a second-semester Information Technology undergraduate student at Universitas Sumatera Utara. I have participated in an organizational committee that helped me develop soft skills, teamwork, and problem-solving abilities. I am particularly interested in cybersecurity and eager to explore this field further through my studies.</p>
+            </div>
+            </section>
+
+            <section id="experience">
+            <div class="about">
+                <h2 class="title2">Experience</h2>
+
+                <div class="box">
+                    <div class="date_comitee">
+                    <h5>9 September - 9 November 2024</h5>
+                    <h5>Mystery Event 2024</h5>
+                    </div>
+                <div class="text">
+                    <h4>Public Relation</h4>
+                    <p>Responsible for promoting the event through social media platforms by creating engaging content and managing online communications. Tasks included increasing audience reach and ensuring effective public engagement. Additionally, assisted in welcoming and guiding visitors on the event day.</p>
+                </div>
+                </div>
+
+                <div class="box">
+                    <div class="date_comitee">
+                    <h5>12 October - 5 December 2024</h5>
+                    <h5>Kelas Produktif Himatif 2024</h5>
+                    </div>
+                <div class="text">
+                    <h4>Web Development</h4>
+                    <p>Attended a web development class focused on learning the fundamentals from scratch. Covered essential concepts, tools, and best practices for building websites, enhancing technical knowledge and problem-solving skills in the field.</p>
+                </div>
+                </div>
+            </div>
+            </section>
+
+            <section id="skills">
+            <div class="about skills">
+                <h2 class="title2">Skills</h2>
+                <div class="box">
+                    <h4>HTML</h4>
+                    <div class="percent">
+                        <div style="width: 60%;"></div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <h4>CSS</h4>
+                    <div class="percent">
+                        <div style="width: 50%;"></div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <h4>JavaSript</h4>
+                    <div class="percent">
+                        <div style="width: 20%;"></div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <h4>C</h4>
+                    <div class="percent">
+                        <div style="width: 30%;"></div>
+                    </div>
+                </div>
+            </div>
+            </section>
+
+            <section id="hobby">
+            <div class="about hobby">
+                <h2 class="title2">Hobby</h2>
+                <ul>
+                    <li><i class="fa fa-paint-brush" aria-hidden="true"></i>Drawing</li>
+                    <li><i class="fa fa-music" aria-hidden="true"></i>Playing Instrument</li>
+                    <li><i class="fa fa-headphones" aria-hidden="true"></i>Listening Music</li>
+                    <li><i class="fa fa-camera-retro" aria-hidden="true"></i>Photography</li>
+                    <li><i class="fa fa-book" aria-hidden="true"></i>Reading</li>
+                </ul>
+            </div>
+            </section>
+            
+        </div>
+    </div>
+    <script src="script.js" ></script>
+</body>
+</html>
